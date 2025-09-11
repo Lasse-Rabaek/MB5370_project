@@ -1,0 +1,29 @@
+---
+title: "Assignments"
+output: html_document
+date: "2025-09-11"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Assignment 1: Graphical storytelling in R
+
+Load necessary libraries
+```{r}
+library("tidyverse")
+```
+
+Caption:
+Pie chart with information on transcription factor binding sites in the human chromosomes
+Tried to show the proportion of binding sites found in different TFBS regions
+Problems:
+1. Pie charts are not the best way to show proportions, a bar chart would be better
+2. The colors are quite jarring and don't go well together. Some pie charts also
+show different colours on the sides than on the top due to shading
+3. It is a 3D pie chart which is totally unnecessary and distorts the proportions
+
+```{r}
+![](pie_mess.png)
+```
